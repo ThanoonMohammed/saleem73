@@ -1,0 +1,160 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+img
+ {
+    width: 150px; /* عرض الصورة */
+    height: 150px; /* ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصورة دائرية */
+    margin-bottom: 20px; /* المسافة بين الصورة والرسالة */
+    object-fit: cover;
+}
+/* خلفية الصفحة الثانية بتدرج لوني هادئ */
+body {
+    background: linear-gradient(to right, #a8d0e6, #f5f7fa); /* تدرج لوني هادئ */
+    font-family: Arial, sans-serif;
+    color: #fff; /* النص باللون الأبيض لجعله مرئيًا */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* تنسيق الصندوق الذي يحتوي على السيرة الذاتية */
+.container {
+    background-color: #fff; /* خلفية الصندوق بيضاء */
+    color: #333; /* النص داخل الصندوق باللون الأسود */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* باقي التنسيقات كما هي */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* خلفية الصفحة الثانية بتدرج لوني هادئ */
+body {
+    background: linear-gradient(to right, #a8d0e6, #f5f7fa); /* تدرج لوني هادئ */
+    font-family: Arial, sans-serif;
+    color: #fff; /* النص باللون الأبيض لجعله مرئيًا */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* تنسيق الصندوق الذي يحتوي على السيرة الذاتية */
+.container {
+    background-color: #fff; /* خلفية الصندوق بيضاء */
+    color: #333; /* النص داخل الصندوق باللون الأسود */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+
+    /* إضافة إطار منسق للصندوق */
+    border: 3px solid #4CAF50;  /* الإطار باللون الأخضر */
+    border-radius: 15px;         /* زوايا الإطار دائرية */
+    padding: 20px;               /* مسافة داخلية بين الإطار والمحتوى */
+}
+
+/* باقي التنسيقات كما هي */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
